@@ -53,11 +53,12 @@ def delete_file(remote_path):
 # EXAMPLE USAGE
 # ==============================
 if __name__ == "__main__":
+    
     # Upload
-    upload_file("local.txt", "bla/local.txt")
+    upload_file("local.txt", "kfir/local.txt")
 
     # Download
-    download_file("bla/local.txt", "downloaded.txt")
+    download_file("kfir/local.txt", "downloaded.txt")
 
     # Delete
-    delete_file("bla/local.txt")
+    delete_file("kfir/local.txt")
